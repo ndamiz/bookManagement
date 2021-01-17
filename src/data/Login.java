@@ -58,14 +58,13 @@ public class Login {
 		while(true) {	
 			try {
 				while(true) {
-					uId = conInput("아이디 : ");
+					uId = conInput("아이디 (영어, 숫자, 3자리이상 가능합니다.) : ");
 					String pattern = "^[a-zA-Z0-9]*$";
 					boolean pt = Pattern.matches(pattern, uId);
-					if(pt==false) System.out.println("아이디에는 영어와 숫자만 입력이 가능합니다.");
-					else {
+					if(pt==false || (uId.length() <3 || uId.length() > 10)) System.out.println("아이디에는 영어, 숫자, 3자리이상만 가능합니다.");
+					else{
 						BookManagementVO vo = DataSet.userData.get(uId);
-						if(uId.equals(vo.getUserId())) 
-							System.out.println("중복 아이디입니다. 다른 아이디로 입력해주세요");
+						if(uId.equals(vo.getUserId())) System.out.println("중복 아이디입니다. 다른 아이디로 입력해주세요");
 					}
 				}// end while
 			}catch(NullPointerException ne) {

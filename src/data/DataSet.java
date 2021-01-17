@@ -19,16 +19,16 @@ public class DataSet {
 
 	public static void setBookData() {
 		bookData.put("달러구트 꿈 백화점", new BookManagementVO("달러구트 꿈 백화점", "이미예", "소설", "팩토리나인", "2"));
-		bookData.put("바이러스X", new BookManagementVO("바이러스X", "김진명", "소설", "이타북스", "1"));
+		bookData.put("바이러스엑스", new BookManagementVO("바이러스엑스", "김진명", "소설", "이타북스", "1"));
 		bookData.put("녹슨달", new BookManagementVO("녹슨달", "하지은", "소설", "드림노블", "0"));
-		bookData.put("2인조", new BookManagementVO("2인조", "이석원", "에세이", "달", "2"));
+		bookData.put("이인조", new BookManagementVO("이인조", "이석원", "에세이", "달", "2"));
 		bookData.put("마음챙김", new BookManagementVO("마음챙김", "샤우나 샤피로", "자기계발", "안드로메디안", "4"));
-		bookData.put("가장 예쁜 생각을 너에게 주고 싶다", new BookManagementVO("가장 예쁜 생각을 너에게 주고싶다", "나태주", "시", "알에이치코리아", "1"));
-		bookData.put("봉제인형 살인사건", new BookManagementVO("봉제인형 살인사건", "다니엘 콜", "외국소설", "북플라자", "6"));
-		bookData.put("일인칭 단수", new BookManagementVO("일인칭 단수", "무라카미 하루키", "외국소설", "문학동네", "3"));
-		bookData.put("골든슬럼버", new BookManagementVO("골든슬럼버", "존 그리샴", "외국소설", "웅진지식하우스", "1"));
+		bookData.put("가장 예쁜 생각", new BookManagementVO("가장 예쁜 생각", "나태주", "시", "알에이치코리아", "1"));
+		bookData.put("봉제인형 살인사건", new BookManagementVO("봉제인형 살인사건", "다니엘콜", "외국소설", "북플라자", "6"));
+		bookData.put("일인칭단수", new BookManagementVO("일인칭단수", "무라카미 하루키", "외국소설", "문학동네", "3"));
+		bookData.put("골든슬럼버", new BookManagementVO("골든슬럼버", "존그리샴", "외국소설", "웅진지식하우스", "1"));
 		bookData.put("커피마스터클래스", new BookManagementVO("커피마스터클래스", "신기욱", "요리/커피/와인", "북하우스엔", "1"));
-		bookData.put("공정하다는 착각", new BookManagementVO("공정하다는 착각", "마이클 샌델", "인문", "와이즈베리", "2"));
+		bookData.put("공정하다는 착각", new BookManagementVO("공정하다는 착각", "마이클샌델", "인문", "와이즈베리", "2"));
 		bookData.put("백반기행", new BookManagementVO("백반기행", "허영만", "여행", "가디언", "2"));
 	}
 	public static void setRentData() {
